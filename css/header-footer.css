@@ -9,7 +9,13 @@
 .header.active {
     position: fixed;
     top: 0;
+    background-color: var(--primary);
     transition: background-color 200ms linear;
+}
+
+.header.active .container .nav,
+.header .language-toggle a {
+    color: var(--white);
 }
 
 .header .row {
@@ -33,7 +39,8 @@
     font-weight: 700;
 }
 
-.header .container {
+.header .container,
+.footer .container {
     width: 100%;
     display: flex;
     align-items: center;
@@ -41,13 +48,15 @@
     gap: 40px;
 }
 
-.header .container .navbar {
+.header .container .navbar,
+.footer .container .navbar {
     display: flex;
     align-items: center;
     gap: 60px;
 }
 
-.header .container .nav {
+.header .container .nav,
+.footer .container .nav {
     color: var(--black);
     font-size: 14px;
     font-weight: 700;
@@ -56,21 +65,15 @@
     transition: var(--transition);
 }
 
-.header .container .nav.current-page {
+.header .container .nav.current-page,
+.footer .container .nav.current-page {
     opacity: 1;
 }
 
-.header .container .nav:hover {
+.header .container .nav:hover,
+.footer .container .nav:hover {
     opacity: 1;
     transition: var(--transition);
-}
-
-.header .container .btn {
-    margin-bottom: 0;
-}
-
-.header .primary-btn {
-    margin-top: 0;
 }
 
 .footer a {
@@ -124,10 +127,6 @@
     align-items: center;
     gap: 10px;
     padding: 10px 30px;
-}
-
-.header .language-toggle a {
-    color: var(--black);
 }
 
 .footer {
