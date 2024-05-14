@@ -22,7 +22,6 @@ let animationStyle = "slideUp";
 let animationTarget = ".animate";
 let firstTime = true;
 
-// SLIDE UP ROWS IN VIEWPORT
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -76,6 +75,5 @@ window.addEventListener("DOMContentLoaded", function() {
         blackOverlay.classList.add("hide-cookie-banner");
         cookieBanner.classList.add("hide-cookie-banner");
     } else {
-        // Shows cookieBanner
     }
 });
