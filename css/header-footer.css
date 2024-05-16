@@ -14,7 +14,7 @@
 }
 
 .header.active .container .nav,
-.header .language-toggle a {
+.header.active .language-toggle a {
     color: var(--white);
 }
 
@@ -31,12 +31,6 @@
 .header .logo,
 .footer .logo {
     width: 250px;
-}
-
-.header .nav-logo,
-.footer .nav-logo {
-    color: var(--black);
-    font-weight: 700;
 }
 
 .header .container,
