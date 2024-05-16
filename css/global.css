@@ -66,6 +66,20 @@ img {
     height: auto;
 }
 
+img.border-radius {
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 40%;
+}
+
+img.border-radius.right {
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
 .legal-item {
     display: flex;
     align-items: center;

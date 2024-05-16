@@ -62,6 +62,7 @@
 
 .reviews.section .row .review-wrapper {
     flex-direction: column;
+    align-items: center;
     color: var(--black);
 }
 
@@ -119,6 +120,19 @@
     background-color: var(--white);
     border-radius: 50%;
     transition: var(--transition);
+}
+
+.gallery .wrapper.gallery-wrapper {
+    gap: 40px;
+}
+
+.gallery .wrapper.gallery-wrapper .item {
+    flex: 1 0 25%;
+}
+
+.gallery .wrapper.gallery-wrapper .item img {
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
 }
 
 @media (max-width: 560px) {
