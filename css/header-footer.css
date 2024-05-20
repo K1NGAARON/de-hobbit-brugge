@@ -108,7 +108,7 @@
 }
 
 .header .nav::before {
-    background-color: var(--white);
+    background-color: var(--black);
 }
 
 .nav:hover::before {
