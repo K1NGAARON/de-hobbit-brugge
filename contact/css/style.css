@@ -21,3 +21,8 @@
 .banner.contact .legal .legal-item p {
     color: var(--white);
 }
+
+.section.contact,
+.section.contact .row {
+    height: 80vh;
+}
