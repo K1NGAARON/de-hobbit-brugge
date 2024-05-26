@@ -123,6 +123,10 @@
     padding: 10px 30px;
 }
 
+.header .language-toggle .active {
+    font-weight: 700;
+}
+
 .footer {
     min-height: unset;
     color: var(--black);
