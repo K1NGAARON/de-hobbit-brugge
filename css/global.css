@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    background-image: url('/assets/layers/background.jpg');
+    background-image: url('/assets/layers/background-white.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
