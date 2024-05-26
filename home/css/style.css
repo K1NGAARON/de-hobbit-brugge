@@ -124,6 +124,7 @@
 
 .gallery .wrapper.gallery-wrapper {
     gap: 40px;
+    margin-top: 40px;
 }
 
 .gallery .wrapper.gallery-wrapper .item {

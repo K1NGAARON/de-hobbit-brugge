@@ -81,6 +81,13 @@ img.border-radius.right {
     border-top-left-radius: 40%;
 }
 
+.divider {
+    width: 60%;
+    max-width: 960px;
+    margin: 60px auto; 
+    opacity: 0.8;
+}
+
 .legal-item {
     display: flex;
     align-items: center;
