@@ -37,9 +37,9 @@ body {
 }
 
 body {
-    background-image: url('/assets/layers/background-white.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('/assets/layers/background.jpg');
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 h1,
