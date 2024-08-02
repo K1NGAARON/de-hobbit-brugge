@@ -37,7 +37,7 @@ body {
 }
 
 body {
-    background-image: url('/assets/layers/background.jpg');
+    background-image: url('/assets/layers/background.png');
     background-size: contain;
     background-repeat: repeat;
 }
