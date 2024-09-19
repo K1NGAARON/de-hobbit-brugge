@@ -36,6 +36,10 @@
     text-align: left;
 }
 
+.banner.section.home_page img {
+    padding: 60px;
+}
+
 .dots {
     display: flex;
     gap: 10px;
