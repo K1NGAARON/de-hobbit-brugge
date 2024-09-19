@@ -158,4 +158,8 @@
     .form-wrapper {
         padding: 0;
     }
+
+    .banner.section.home_page img {
+        padding: unset;
+    }
 }
