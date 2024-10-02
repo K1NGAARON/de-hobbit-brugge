@@ -1,7 +1,7 @@
 .header {
     background-color: transparent;
     min-height: unset;
-    position: absolute;
+    /* position: absolute; */
     z-index: 99;
     transition: background-color 200ms linear;
 }

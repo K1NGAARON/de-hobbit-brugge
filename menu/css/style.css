@@ -41,6 +41,12 @@
     animation: underline_filter 500ms ease-in-out;
 }
 
+@media (max-width: 560px) {
+    .section.filters .row {
+        padding-top: 60px;
+    }
+}
+
 /*animated scroll arrow animation*/
 @keyframes underline_filter {
     0% {
