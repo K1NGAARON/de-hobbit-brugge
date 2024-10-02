@@ -1,7 +1,6 @@
 .banner {
     justify-content: center;
     height: 90vh;
-    /* background-image: url('/home/img/banner.jpg'); */
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -147,8 +146,12 @@
 @media (max-width: 560px) {
     .banner.section,
     .banner.section .row {
-        height: 50vh;
+        height: 100vh;
     }
+
+    .reviews.section h2, .reviews.section p {
+        width: 100%;
+    } 
 
     .banner h1,
     .banner p {
@@ -169,5 +172,9 @@
 
     .banner.section.home_page .row {
         margin-top: unset;
+    }
+
+    .gallery .wrapper.gallery-wrapper .item {
+        flex: 1 0 40%;
     }
 }

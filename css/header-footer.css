@@ -200,6 +200,11 @@
         width: 25px;
     }
 
+    .header.active .topnav-content-sm svg {
+        fill: var(--white);
+        width: 25px;
+    }
+
     .header .topnav-content-sm svg:hover {
         cursor: pointer;
     }
@@ -222,5 +227,10 @@
 
     .banner.section .row {
         padding-top: 60px;
+    }
+
+    .header .container .navbar, .footer .container .navbar {
+        flex-direction: column;
+        gap: 10px;
     }
 }
