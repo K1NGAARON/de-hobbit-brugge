@@ -28,6 +28,10 @@
     background-color: transparent;
 }
 
+.header-col .icon {
+    display: flex;
+}
+
 .header .logo,
 .footer .logo {
     width: 250px;
@@ -187,6 +191,10 @@
         background-color: var(--black);
     }
 
+    .header .small-menu-content .nav {
+        color: var(--white);
+    }
+
     .header .topnav-content-sm svg {
         fill: var(--black);
         width: 25px;
@@ -198,10 +206,21 @@
 
     .header .logo, 
     .footer .logo {
-        width: 75px;
+        width: 125px;
     }
 
     .nav::before {
         display: none;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .header {
+        position: unset;
+    }
+
+    .banner.section .row {
+        padding-top: 60px;
     }
 }
